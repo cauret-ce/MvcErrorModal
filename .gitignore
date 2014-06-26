@@ -1,6 +1,8 @@
 # Compiled source #
 ###################
 *.com
+*.class
+*.dll
 *.exe
 *.o
 *.so
@@ -8,6 +10,7 @@
 
 #Ignore files build by Visual Studio
 *.obj
+[cC][eE]*/*.exe
 *.pdb
 *.user
 *.aps
@@ -30,6 +33,8 @@
 obj/
 [Rr]elease*/
 _ReSharper*/
+
+packages/
  
 # Packages #
 ############
