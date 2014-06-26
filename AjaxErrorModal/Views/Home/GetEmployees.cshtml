@@ -1,0 +1,17 @@
+﻿@model List<AjaxErrorModal.ViewModels.Employee.EmployeeViewModel>
+
+@{
+    ViewBag.Title = "GetEmployees";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of Employees</h2>
+
+<ul>
+    @foreach (var employee in Model)
+    {
+        <li>
+            @employee.FirstName  @employee.Surname
+        </li>
+    }
+</ul>
