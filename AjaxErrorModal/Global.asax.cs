@@ -6,13 +6,13 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using AjaxErrorModal.ViewModels.Employee;
 using Autofac;
 using Autofac.Integration.Mvc;
+using MvcAjaxErrorModal.ViewModels.Employee;
 using Service;
 using Service.Employee;
 
-namespace AjaxErrorModal
+namespace MvcAjaxErrorModal
 {
     public class MvcApplication : System.Web.HttpApplication
     {

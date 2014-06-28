@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AjaxErrorModal
+namespace MvcAjaxErrorModal
 {
     public class BundleConfig
     {

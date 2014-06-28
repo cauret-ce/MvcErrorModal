@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AjaxErrorModal.Models
+namespace MvcAjaxErrorModal.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

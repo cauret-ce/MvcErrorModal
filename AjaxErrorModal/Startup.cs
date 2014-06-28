@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(AjaxErrorModal.Startup))]
-namespace AjaxErrorModal
+[assembly: OwinStartupAttribute(typeof(MvcAjaxErrorModal.Startup))]
+namespace MvcAjaxErrorModal
 {
     public partial class Startup
     {

@@ -3,7 +3,7 @@ using Autofac;
 using AutoMapper;
 using Core.Domain;
 
-namespace AjaxErrorModal.ViewModels.Employee
+namespace MvcAjaxErrorModal.ViewModels.Employee
 {
     public class EmployeeViewModel
     {
