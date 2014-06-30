@@ -1,2 +1,2 @@
-MvcErrorModal
+MvcAjaxErrorModal
 =============

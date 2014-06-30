@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AjaxErrorModal.Controllers;
 using AutoMapper;
 using Core.Domain;
 using MvcAjaxErrorModal.ViewModels.Employee;
@@ -10,7 +11,7 @@ using Service.Employee;
 
 namespace MvcAjaxErrorModal.Controllers
 {
-    public class EmployeeController : Controller
+    public class EmployeeController : BaseController
     {
         private readonly IEmployeeService _employeeService;
         public EmployeeController(IEmployeeService employeeService)

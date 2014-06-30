@@ -12,6 +12,8 @@ namespace Service
     {
         public List<EmployeeDto> GetEmployees()
         {
+            //throw new Exception("Something really bad just happened!");
+
             return new List<EmployeeDto>
             {
                 new EmployeeDto() { Id = Guid.NewGuid(), Age = 22, FirstName = "Christopher", Surname = "Auret", Mobile = "0416380246"},
