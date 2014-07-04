@@ -26,5 +26,11 @@ namespace MvcAjaxErrorModal.Controllers
 
             return PartialView("~/Views/Shared/Partials/Employees/_List.cshtml", viewModel);
         }
+
+        [HttpGet]
+        public ActionResult ShowModalEmployeeList()
+        {
+           return PartialView("~/Views/Shared/Partials/Employees/_ModalShowEmployees.cshtml");
+        }
 	}
 }
